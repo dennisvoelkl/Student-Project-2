@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,8 +21,12 @@ public class Main {
 //        System.out.println(students);
 
         StudentDB studentDBArray = new StudentDB(students);
+        try {
+            System.out.println(studentDBArray.findById(56789));
+        }catch(NoSuchElementException e){
+            System.out.println("Sorry, no ID found!");
+        }
 
-        System.out.println(studentDBArray.findById(56789));
 
     }
 }
