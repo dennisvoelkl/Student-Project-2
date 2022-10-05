@@ -7,4 +7,9 @@ public class StudentDB {
         this.studentDBArray = studentDBArray;
 
     }
+
+    @Override
+    public String toString() {
+        return "" + studentDBArray ;
+    }
 }
