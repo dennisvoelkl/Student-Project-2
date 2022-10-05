@@ -44,6 +44,7 @@ public class Main {
         System.out.println(studentGenerate2.get(1));
 
         System.out.println("\nPrint a random Student:" + studentDBArray.randomStudent());
+        System.out.println("\nPrint all Students:" + studentDBArray.getAllStudents());
 
     }
 }
