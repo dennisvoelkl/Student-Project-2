@@ -4,6 +4,7 @@ import java.util.NoSuchElementException;
 
 public class Main {
     public static void main(String[] args) {
+
         Student student = new Student();
         student.id = 1234;
         student.name = "Marc";
@@ -44,6 +45,11 @@ public class Main {
 
         System.out.println("\nPrint a random Student:" + studentDBArray.randomStudent());
         System.out.println("\nPrint all Students:" + studentDBArray.getAllStudents());
+
+        ComputerScienceStudent nerd = new ComputerScienceStudent();
+        nerd.id = 1234;
+        nerd.name = "alfons";
+        System.out.println("\nStudent3 : " + nerd);
 
     }
 }
