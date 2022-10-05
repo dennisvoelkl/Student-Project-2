@@ -8,7 +8,7 @@ public class Student
 
    @Override
    public String toString() {
-       return "Student: " + "\nName:  " + name  +
+       return "\nStudent: " + "\nName:  " + name  +
                "\nStudentennummer: " + id;
    }
 }
