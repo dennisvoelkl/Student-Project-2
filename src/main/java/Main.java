@@ -34,7 +34,7 @@ public class Main {
                 "Student6"
                 ));
 
-        System.out.println(studentsGenerate.get(1));
+        System.out.println("\n" + studentsGenerate.get(1));
 
         ArrayList<Student> studentGenerate2 = new ArrayList<>(List.of(
                 student1,
