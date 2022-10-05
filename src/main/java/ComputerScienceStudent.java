@@ -23,6 +23,6 @@ public abstract class ComputerScienceStudent extends Student{
                 "} " + super.toString();
     }
 
-    public abstract String gender();
+    public abstract String gender(String gender);
 
 }
