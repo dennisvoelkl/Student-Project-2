@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class StudentDB {
 
@@ -17,8 +18,14 @@ public class StudentDB {
 
     public Student randomStudent(){
         int randomIndex = (int)(Math.random() * studentDBArray.size());
-
         return studentDBArray.get(randomIndex);
+    }
+
+    public Student findById(int id){
+        for(int i=0; i<studentDBArray.size(); i++){
+            if(studentDBArray.get(i).getId() == id){
+            return studentDBArray.get(i);}
+        }throw new NoSuchElementException("No ID found");
     }
 
 
