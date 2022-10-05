@@ -46,10 +46,15 @@ public class Main {
         System.out.println("\nPrint a random Student:" + studentDBArray.randomStudent());
         System.out.println("\nPrint all Students:" + studentDBArray.getAllStudents());
 
-        ComputerScienceStudent nerd = new ComputerScienceStudent();
+        ComputerScienceStudent nerd = new realComputerScienceStudent();
         nerd.id = 1234;
         nerd.name = "alfons";
         System.out.println("\nStudent3 : " + nerd);
+
+        Student mensch = new realComputerScienceStudent();
+        mensch.id  = 666;
+        mensch.name = "dennis";
+        System.out.println("\nStudent : " + mensch);
 
     }
 }

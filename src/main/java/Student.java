@@ -1,7 +1,7 @@
 import lombok.Data;
 
 @Data
-public class Student
+public class Student extends Mensch
 {
     String name;
     int id;
@@ -11,4 +11,7 @@ public class Student
        return "\nStudent: " + "\nName:  " + name  +
                "\nStudentennummer: " + id;
    }
+
+
+
 }
