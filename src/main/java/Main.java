@@ -21,7 +21,7 @@ public class Main {
 
         StudentDB studentDBArray = new StudentDB(students);
 
-        System.out.println(studentDBArray);
+        System.out.println(studentDBArray.randomStudent());
 
     }
 }

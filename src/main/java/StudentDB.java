@@ -15,5 +15,11 @@ public class StudentDB {
         return "" + studentDBArray ;
     }
 
+    public Student randomStudent(){
+        int randomIndex = (int)(Math.random() * studentDBArray.size());
+
+        return studentDBArray.get(randomIndex);
+    }
+
 
 }
