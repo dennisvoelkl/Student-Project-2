@@ -68,5 +68,8 @@ public class Main {
         System.out.println("\nStudent : " + mensch3);
         System.out.println(mensch3.gender("monster"));
 
+        Citizen frankenstein = new BiologicalStudent();
+        System.out.printf(frankenstein.getAdress());
+
     }
 }
