@@ -19,7 +19,6 @@ public class Main {
         students.add(student1);
         students.add(student2);
 
-//        System.out.println(students);
 
         StudentDB studentDBArray = new StudentDB(students);
         try {
@@ -41,7 +40,7 @@ public class Main {
                 student2,
                 student
         ));
-        System.out.println(studentGenerate2.get(1));
+        System.out.println("\nPrint a Student from ArrayList<Student> List.of:" + studentGenerate2.get(1));
 
         System.out.println("\nPrint a random Student:" + studentDBArray.randomStudent());
         System.out.println("\nPrint all Students:" + studentDBArray.getAllStudents());
