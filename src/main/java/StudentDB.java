@@ -7,9 +7,13 @@ public class StudentDB {
         this.studentDBArray = studentDBArray;
 
     }
-
+    public ArrayList<Student> getAllStudents() {
+        return studentDBArray;
+    }
     @Override
     public String toString() {
         return "" + studentDBArray ;
     }
+
+
 }

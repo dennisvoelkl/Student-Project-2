@@ -6,9 +6,9 @@ public class Student
     String name;
     int id;
 
-    @Override
-    public String toString() {
-        return "Student: " + "\nName:  " + name  +
-                "\nStudentennummer: " + id;
-    }
+   @Override
+   public String toString() {
+       return "Student: " + "\nName:  " + name  +
+               "\nStudentennummer: " + id;
+   }
 }
