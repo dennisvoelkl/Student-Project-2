@@ -17,5 +17,11 @@ public class Main {
         students.add(student1);
         students.add(student2);
 
+//        System.out.println(students);
+
+        StudentDB studentDBArray = new StudentDB(students);
+
+        System.out.println(studentDBArray);
+
     }
 }
