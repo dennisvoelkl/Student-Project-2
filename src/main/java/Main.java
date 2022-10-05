@@ -43,5 +43,7 @@ public class Main {
         ));
         System.out.println(studentGenerate2.get(1));
 
+        System.out.println("\nPrint a random Student:" + studentDBArray.randomStudent());
+
     }
 }
